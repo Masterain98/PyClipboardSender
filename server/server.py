@@ -39,10 +39,10 @@ if __name__ == '__main__':
     with open("config.json", 'r') as config:
         configFile = json.loads(config.read())
         server_passwd = configFile["passwd"].replace(' ', '')
-        server_allowedPC = configFile["allowedPC"].replace('', ' ')
+        server_allowedPC = configFile["allowedPC"].replace(' ', '')
         server_allowedPC_list = server_allowedPC.split(",")
         print("password: " + server_passwd)
         print("Receiving: " + server_allowedPC)
-        print(type(server_allowedPC))
 
+    # Consider only personal usage in LAN, debug=True
     app.run(host="0.0.0.0", port=5951, debug=True)
