@@ -26,3 +26,12 @@ PyClipboardSender will send all clipboard content from client program to the ser
     - Both server and password field are **required**
   - Run ```client.exe``` and leave it minimized
 
+## Screenshot
+
+### Server
+
+![Server](https://github.com/Masterain98/PyClipboardSender/blob/main/server-screenshot.png?raw=true)
+
+### Client
+
+![Client](https://github.com/Masterain98/PyClipboardSender/blob/main/client-screenshot.png?raw=true)
